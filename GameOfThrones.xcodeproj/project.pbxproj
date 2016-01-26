@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		97583D661C5820FE00FCD56D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D651C5820FE00FCD56D /* main.m */; };
 		97583D691C5820FE00FCD56D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D681C5820FE00FCD56D /* AppDelegate.m */; };
-		97583D6C1C5820FE00FCD56D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D6B1C5820FE00FCD56D /* ViewController.m */; };
 		97583D6F1C5820FE00FCD56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97583D6D1C5820FE00FCD56D /* Main.storyboard */; };
 		97583D721C5820FE00FCD56D /* GameOfThrones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97583D701C5820FE00FCD56D /* GameOfThrones.xcdatamodeld */; };
 		97583D741C5820FE00FCD56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97583D731C5820FE00FCD56D /* Assets.xcassets */; };
 		97583D771C5820FE00FCD56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97583D751C5820FE00FCD56D /* LaunchScreen.storyboard */; };
+		97583D801C58213F00FCD56D /* CharacterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */; };
+		97583D821C5821BE00FCD56D /* nathansFavs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97583D811C5821BE00FCD56D /* nathansFavs.plist */; };
+		97583D871C58265400FCD56D /* Playa+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D841C58265400FCD56D /* Playa+CoreDataProperties.m */; };
+		97583D881C58265400FCD56D /* Playa.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D861C58265400FCD56D /* Playa.m */; };
+		97583D8B1C58281700FCD56D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97583D8A1C58281700FCD56D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +25,20 @@
 		97583D651C5820FE00FCD56D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97583D671C5820FE00FCD56D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97583D681C5820FE00FCD56D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		97583D6A1C5820FE00FCD56D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		97583D6B1C5820FE00FCD56D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97583D6E1C5820FE00FCD56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97583D711C5820FE00FCD56D /* GameOfThrones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameOfThrones.xcdatamodel; sourceTree = "<group>"; };
 		97583D731C5820FE00FCD56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97583D761C5820FE00FCD56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97583D781C5820FE00FCD56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97583D7E1C58213F00FCD56D /* CharacterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewController.h; sourceTree = "<group>"; };
+		97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewController.m; sourceTree = "<group>"; };
+		97583D811C5821BE00FCD56D /* nathansFavs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nathansFavs.plist; sourceTree = "<group>"; };
+		97583D831C58265400FCD56D /* Playa+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Playa+CoreDataProperties.h"; path = "../Playa+CoreDataProperties.h"; sourceTree = "<group>"; };
+		97583D841C58265400FCD56D /* Playa+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Playa+CoreDataProperties.m"; path = "../Playa+CoreDataProperties.m"; sourceTree = "<group>"; };
+		97583D851C58265400FCD56D /* Playa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Playa.h; path = ../Playa.h; sourceTree = "<group>"; };
+		97583D861C58265400FCD56D /* Playa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Playa.m; path = ../Playa.m; sourceTree = "<group>"; };
+		97583D891C58281700FCD56D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		97583D8A1C58281700FCD56D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +71,15 @@
 		97583D631C5820FE00FCD56D /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
-				97583D671C5820FE00FCD56D /* AppDelegate.h */,
-				97583D681C5820FE00FCD56D /* AppDelegate.m */,
-				97583D6A1C5820FE00FCD56D /* ViewController.h */,
-				97583D6B1C5820FE00FCD56D /* ViewController.m */,
 				97583D6D1C5820FE00FCD56D /* Main.storyboard */,
+				97583D7E1C58213F00FCD56D /* CharacterTableViewController.h */,
+				97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */,
+				97583D891C58281700FCD56D /* DetailViewController.h */,
+				97583D8A1C58281700FCD56D /* DetailViewController.m */,
 				97583D731C5820FE00FCD56D /* Assets.xcassets */,
 				97583D751C5820FE00FCD56D /* LaunchScreen.storyboard */,
 				97583D781C5820FE00FCD56D /* Info.plist */,
+				97583D811C5821BE00FCD56D /* nathansFavs.plist */,
 				97583D701C5820FE00FCD56D /* GameOfThrones.xcdatamodeld */,
 				97583D641C5820FE00FCD56D /* Supporting Files */,
 			);
@@ -77,6 +89,12 @@
 		97583D641C5820FE00FCD56D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97583D671C5820FE00FCD56D /* AppDelegate.h */,
+				97583D681C5820FE00FCD56D /* AppDelegate.m */,
+				97583D831C58265400FCD56D /* Playa+CoreDataProperties.h */,
+				97583D841C58265400FCD56D /* Playa+CoreDataProperties.m */,
+				97583D851C58265400FCD56D /* Playa.h */,
+				97583D861C58265400FCD56D /* Playa.m */,
 				97583D651C5820FE00FCD56D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +161,7 @@
 				97583D771C5820FE00FCD56D /* LaunchScreen.storyboard in Resources */,
 				97583D741C5820FE00FCD56D /* Assets.xcassets in Resources */,
 				97583D6F1C5820FE00FCD56D /* Main.storyboard in Resources */,
+				97583D821C5821BE00FCD56D /* nathansFavs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +173,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				97583D721C5820FE00FCD56D /* GameOfThrones.xcdatamodeld in Sources */,
-				97583D6C1C5820FE00FCD56D /* ViewController.m in Sources */,
 				97583D691C5820FE00FCD56D /* AppDelegate.m in Sources */,
+				97583D871C58265400FCD56D /* Playa+CoreDataProperties.m in Sources */,
+				97583D881C58265400FCD56D /* Playa.m in Sources */,
 				97583D661C5820FE00FCD56D /* main.m in Sources */,
+				97583D801C58213F00FCD56D /* CharacterTableViewController.m in Sources */,
+				97583D8B1C58281700FCD56D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
