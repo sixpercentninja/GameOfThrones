@@ -7,6 +7,8 @@
 //
 
 #import "DetailViewController.h"
+#import "Playa.h"
+#import "AppDelegate.h"
 
 @interface DetailViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *singerTextField;
@@ -22,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setEditing:YES animated:NO];
+    
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
@@ -32,9 +36,24 @@
         self.singerTextField.enabled = YES;
         self.groupTextField.enabled = YES;
     } else {
+        [self createPlaya];
         self.singerTextField.enabled = NO;
         self.groupTextField.enabled = NO;
     }
+}
+
+-(void) createPlaya{
+    
+    Playa *newPlaya = [NSEntityDescription insertNewObjectForEntityForName:@"Playa" inManagedObjectContext:self.moc];
+    newPlaya.singer = self.singerTextField.text;
+    newPlaya.group = self.groupTextField.text;
+    
+    NSError *error;
+    
+    if (![self.moc save:&error]) {
+        NSLog(@"%@", error.localizedDescription);
+    }
+    
 }
 
 /*

@@ -72,10 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				97583D6D1C5820FE00FCD56D /* Main.storyboard */,
-				97583D7E1C58213F00FCD56D /* CharacterTableViewController.h */,
-				97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */,
 				97583D891C58281700FCD56D /* DetailViewController.h */,
 				97583D8A1C58281700FCD56D /* DetailViewController.m */,
+				97583D7E1C58213F00FCD56D /* CharacterTableViewController.h */,
+				97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */,
 				97583D731C5820FE00FCD56D /* Assets.xcassets */,
 				97583D751C5820FE00FCD56D /* LaunchScreen.storyboard */,
 				97583D781C5820FE00FCD56D /* Info.plist */,
@@ -325,6 +325,7 @@
 				97583D7D1C5820FE00FCD56D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

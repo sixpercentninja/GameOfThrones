@@ -45,6 +45,20 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Tpb-BQ-PE5">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="Sort" id="8ga-6J-wxl">
+                            <connections>
+                                <action selector="onSortButtonTapped:" destination="hQB-SR-xfP" id="HSX-Am-kDz"/>
+                            </connections>
+                        </barButtonItem>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Jti-E9-KYA">
+                            <rect key="frame" x="114.5" y="7.5" width="185" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Singer"/>
+                                <segment title="Group"/>
+                            </segments>
+                        </segmentedControl>
                         <barButtonItem key="rightBarButtonItem" title="+ Playa" id="ijv-5v-GgQ">
                             <connections>
                                 <segue destination="pQB-Gh-xTJ" kind="show" id="o5s-Wz-gBl"/>
@@ -106,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avb-e2-ERv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1972" y="-304"/>
+            <point key="canvasLocation" x="1965" y="360"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gL1-oa-upY">
