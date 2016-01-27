@@ -1,8 +1,8 @@
-#import "DetailViewController.h"
+#import "NewPlayaViewCharacter.h"
 #import "Playa.h"
 #import "AppDelegate.h"
 
-@interface DetailViewController ()
+@interface NewPlayaViewCharacter ()
 @property (weak, nonatomic) IBOutlet UITextField *singerTextField;
 @property (weak, nonatomic) IBOutlet UITextField *groupTextField;
 @property (weak, nonatomic) IBOutlet UIImageView *playaImageView;

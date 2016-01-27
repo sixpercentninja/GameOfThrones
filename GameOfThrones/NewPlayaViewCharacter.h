@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface NewPlayaViewCharacter : UIViewController
 
 @property NSManagedObjectContext *moc;
 
