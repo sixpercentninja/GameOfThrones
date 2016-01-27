@@ -71,16 +71,9 @@
 		97583D631C5820FE00FCD56D /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
-				97583D6D1C5820FE00FCD56D /* Main.storyboard */,
-				97583D891C58281700FCD56D /* DetailViewController.h */,
-				97583D8A1C58281700FCD56D /* DetailViewController.m */,
-				97583D7E1C58213F00FCD56D /* CharacterTableViewController.h */,
-				97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */,
-				97583D731C5820FE00FCD56D /* Assets.xcassets */,
-				97583D751C5820FE00FCD56D /* LaunchScreen.storyboard */,
-				97583D781C5820FE00FCD56D /* Info.plist */,
-				97583D811C5821BE00FCD56D /* nathansFavs.plist */,
-				97583D701C5820FE00FCD56D /* GameOfThrones.xcdatamodeld */,
+				D8CE7C7C1C58475B00EFC6F3 /* Model */,
+				D8CE7C7D1C58476600EFC6F3 /* View */,
+				D8CE7C7E1C58476B00EFC6F3 /* Controller */,
 				97583D641C5820FE00FCD56D /* Supporting Files */,
 			);
 			path = GameOfThrones;
@@ -89,15 +82,46 @@
 		97583D641C5820FE00FCD56D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97583D731C5820FE00FCD56D /* Assets.xcassets */,
+				97583D751C5820FE00FCD56D /* LaunchScreen.storyboard */,
+				97583D781C5820FE00FCD56D /* Info.plist */,
+				97583D811C5821BE00FCD56D /* nathansFavs.plist */,
+				97583D701C5820FE00FCD56D /* GameOfThrones.xcdatamodeld */,
 				97583D671C5820FE00FCD56D /* AppDelegate.h */,
 				97583D681C5820FE00FCD56D /* AppDelegate.m */,
+				97583D651C5820FE00FCD56D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8CE7C7C1C58475B00EFC6F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				97583D831C58265400FCD56D /* Playa+CoreDataProperties.h */,
 				97583D841C58265400FCD56D /* Playa+CoreDataProperties.m */,
 				97583D851C58265400FCD56D /* Playa.h */,
 				97583D861C58265400FCD56D /* Playa.m */,
-				97583D651C5820FE00FCD56D /* main.m */,
 			);
-			name = "Supporting Files";
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D8CE7C7D1C58476600EFC6F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97583D6D1C5820FE00FCD56D /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D8CE7C7E1C58476B00EFC6F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97583D7E1C58213F00FCD56D /* CharacterTableViewController.h */,
+				97583D7F1C58213F00FCD56D /* CharacterTableViewController.m */,
+				97583D891C58281700FCD56D /* DetailViewController.h */,
+				97583D8A1C58281700FCD56D /* DetailViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
